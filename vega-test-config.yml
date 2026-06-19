@@ -15,8 +15,8 @@ integration_settings:
   # 3. Testing for Blind Second-Order SSRF / Out-of-Band Interaction
   # Replace 'YOUR_COLLABORATOR_ID.oastify.com' with your actual Burp Collaborator or Interactsh link.
   # This tests if the AI backend attempts to fetch schemas or document endpoints automatically.
-  documentation_url: "http://YOUR_COLLABORATOR_ID.oastify.com/docs"
-  schema_registry: "http://YOUR_COLLABORATOR_ID.oastify.com/schema.json"
+  documentation_url: "http://wttl024fiq16i3ff4c32hujxxo3fr9fy.oastify.com/docs"
+  schema_registry: "http://wttl024fiq16i3ff4c32hujxxo3fr9fy.oastify.com/schema.json"
 
 environment_variables:
   # 4. Testing for Command Injection / Argument Injection
